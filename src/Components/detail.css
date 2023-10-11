@@ -1,0 +1,42 @@
+.book-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Styles for the book image */
+.book-image img {
+  max-width: 300px; /* Adjust the image size as needed */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the book information */
+.book-info {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Styles for specific elements inside book-info */
+.book-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.book-info strong {
+  font-weight: bold;
+}
+
+/* Styles for the link */
+.book-info a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+.book-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

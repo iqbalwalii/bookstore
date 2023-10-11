@@ -1,0 +1,51 @@
+/* HomePage.css */
+.homepage {
+  text-align: center;
+}
+
+.hero {
+  background-image: url("hero-bg.png");
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.featured-books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.book {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Add more styles to enhance the appearance */
