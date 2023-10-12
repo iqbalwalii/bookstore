@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 function BookDetail() {
   const { bookId } = useParams();
-  const [book, setBook] = React.useState(null); // Initialize book as null
+  const [book, setBook] = React.useState(null);
 
   React.useEffect(() => {
     console.log(bookId);

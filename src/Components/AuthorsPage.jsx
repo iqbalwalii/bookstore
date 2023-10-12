@@ -1,7 +1,7 @@
 // import React from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
 import { authorsData } from "../data/authors"; // Import the author data
-import "./Authors.css"; // Import your CSS file for additional styling
+import "./authors.css";
 
 function AuthorsPage() {
   return (
