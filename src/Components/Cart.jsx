@@ -47,7 +47,16 @@ const CartPage = () => {
     <Container className="my-5">
       <h2>Your Shopping Cart</h2>
       <Table striped bordered hover>
-        <thead>{/* ... (Same as before) */}</thead>
+        <thead>
+          <tr>
+            <td className="text-center">#</td>
+            <td className="text-center">Title</td>
+            <td className="text-center">Price</td>
+            <td className="text-center">Quantity</td>
+            <td className="text-center">Total</td>
+            <td className="text-center">Action</td>
+          </tr>
+        </thead>
         <tbody>
           {cartItems.map((item, index) => {
             return (
