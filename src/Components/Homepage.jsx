@@ -1,6 +1,7 @@
 // import React from "react";
 import { Container, Button } from "react-bootstrap";
-// import "./homepage.css";
+import "./main.css";
+
 import { LinkContainer } from "react-router-bootstrap";
 function HomePage() {
   return (
