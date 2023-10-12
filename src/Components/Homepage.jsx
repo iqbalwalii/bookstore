@@ -1,6 +1,5 @@
 // import React from "react";
 import { Container, Button } from "react-bootstrap";
-import "./HomePage.css"; // Import your CSS file for additional styling
 import "./homepage.css";
 import { LinkContainer } from "react-router-bootstrap";
 function HomePage() {
