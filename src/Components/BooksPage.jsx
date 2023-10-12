@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
 import { booksData } from "../data/books"; // Import the book data
-import "./Books.css";
+import "./books.css";
 import Search from "./Search";
 // import { LinkContainer } from "react-router-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
